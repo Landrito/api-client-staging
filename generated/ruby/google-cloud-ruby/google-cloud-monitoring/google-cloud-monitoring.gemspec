@@ -22,8 +22,10 @@ Gem::Specification.new do |s|
   s.add_dependency "grpc", "~> 1.0"
   s.add_dependency "googleauth", "~> 0.5.1"
   s.add_dependency "google-gax", "~> 0.8.0"
-  s.add_dependency "google-common-protos", "~> 1.3.1"
+  s.add_dependency "googleapis-common-protos", "~> 1.3.1"
 
   s.add_development_dependency "bundler", "~> 1.9"
   s.add_development_dependency "rake", "~> 10.4"
+  s.add_development_dependency "rubocop", "~> 0.32"
+  s.add_development_dependency "simplecov", "~> 0.9"
 end
